@@ -1,9 +1,7 @@
 body{
     background-image: url("images/main-page.jpg");
     text-align: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+    background-size: cover;
 }
 #header{
 
