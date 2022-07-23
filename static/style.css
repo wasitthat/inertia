@@ -9,7 +9,9 @@ body{
 .navbar{
     height:300px;
 }
-
+audio{
+    margin-left: 6rem;
+}
 a.nav-link{
     padding-top: 100px;
 }
