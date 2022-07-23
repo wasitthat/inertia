@@ -1,0 +1,33 @@
+body{
+    background-image: url("/static/images/main-page.jpg");
+    text-align: center;
+
+}
+#header{
+
+}
+.navbar{
+    height:300px;
+}
+
+a.nav-link{
+    padding-top: 100px;
+}
+a.navbar-brand{
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.navbar-collapse{
+    padding-bottom: 50px;
+}
+.nav-item{
+  padding: 0 25px 0 25px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
