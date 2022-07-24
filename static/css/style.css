@@ -111,7 +111,7 @@ a.navbar-brand{
 iframe{
     margin:100px 0 100px 0;
 }
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1800px) {
   .parallax {
     background-attachment: scroll;
     background-size: 100% 100%;
