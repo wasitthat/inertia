@@ -6,23 +6,27 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/news')
+@app.route('/index.html')
+def home_again():
+    return render_template('index.html')
+
+@app.route('/news.html')
 def news():
     return render_template('news.html')
 
-@app.route('/music')
+@app.route('/music.html')
 def music():
     return render_template('music.html')
 
-@app.route('/links')
+@app.route('/links.html')
 def links():
     return render_template('links.html')
 
-@app.route('/videos')
+@app.route('/videos.html')
 def videos():
     return render_template('videos.html')
 
-@app.route('/merch')
+@app.route('/merch.html')
 def merch():
     return render_template('merch.html')
 

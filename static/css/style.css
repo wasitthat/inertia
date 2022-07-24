@@ -1,16 +1,53 @@
-body{
+#index-body{
     background-image: url("images/main-page.jpg");
     text-align: center;
     background-size: cover;
 }
+#music-body{
+    background-image: url("images/spacey.jpg");
+    text-align: center;
+    background-size: cover;
+}
+#links-body{
+    background-image: url("images/links.jpg");
+    text-align: center;
+    background-size: cover;
+}
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: inherit;
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #header{
+    background-color: fff;
 }
 
 .navbar{
-    height:300px;
+    height:180px;
+}
+hr{
+position: relative;
+    top:-20px;
+    border: solid;
+    line-height: 2;
+    color: white;
+    opacity: .66;
 }
 audio{
-    margin-left: 6rem;
+    display: block;
+    padding: 0 0 25px 0 ;
 }
 a.nav-link{
     padding-top: 100px;
@@ -21,7 +58,9 @@ a.navbar-brand{
     padding-left: 100px;
     padding-top: 100px;
 }
-
+.player{
+    display:block;
+}
 .navbar-collapse{
     padding-bottom: 50px;
 }
@@ -32,4 +71,67 @@ a.navbar-brand{
 .nav-link{
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+.container-fluid{
+    background-color:black;
+}
+.wtf{
+
+}
+.names{
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    line-height:3;
+    color: #fff;
+  }
+
+.wwy{
+
+}
+.dir{
+
+}
+.spanky{
+
+}
+.goodbye{
+
+}
+.music-background{
+    background-image: url("static/css/images/spacey.jpg");
+    text-align: center;
+    background-size: cover;
+
+}
+.music-players{
+    text-align: -webkit-center;
+}
+
+iframe{
+    margin:100px 0 100px 0;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+p{
+    text-width: 500px;
+    color: #fff;
+    font-size:2.5rem;
+}
+
+.about{
+    margin: auto;
+    width:500px;
+}
+
+.icons{
+    text-decoration: none;
+    color: white;
+    opacity:.35;
+    padding: 0 10px;
+    font-size: 3rem;
 }
