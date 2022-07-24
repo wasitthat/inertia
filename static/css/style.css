@@ -99,7 +99,7 @@ a.navbar-brand{
 
 }
 .music-background{
-    background-image: url("static/css/images/spacey.jpg");
+    background-image: url("images/spacey.jpg");
     text-align: center;
     background-size: cover;
 
