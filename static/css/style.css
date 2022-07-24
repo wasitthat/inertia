@@ -1,17 +1,20 @@
 #index-body{
     background-image: url("images/main-page.jpg");
     text-align: center;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 #music-body{
     background-image: url("images/spacey.jpg");
     text-align: center;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 #links-body{
     background-image: url("images/links.jpg");
     text-align: center;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 body, html {
   height: 100%;
@@ -26,9 +29,9 @@ body, html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 #header{
     background-color: fff;
@@ -101,7 +104,8 @@ a.navbar-brand{
 .music-background{
     background-image: url("images/spacey.jpg");
     text-align: center;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 
 }
 .music-players{
