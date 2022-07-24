@@ -1,12 +1,12 @@
 #index-body{
     background-image: url("images/main-page.jpg");
     text-align: center;
-  contain;
+  background-size:contain;
 }
 #music-body{
     background-image: url("images/spacey.jpg");
     text-align: center;
-  contain;
+    background-size:contain;
 }
 #links-body{
     background-image: url("images/links.jpg");
