@@ -4,7 +4,9 @@
     background-size: cover;
 }
 #music-body{
+    background-image: url("images/spacey.jpg");
     text-align: center;
+    background-size: cover;
 }
 #links-body{
     background-image: url("images/links.jpg");
@@ -97,7 +99,7 @@ a.navbar-brand{
 
 }
 .music-background{
-    background-image: url("https://wallpapers.com/wallpapers/3d-pile-of-stone-x63ty8bdestartw2.html?embed=true");
+    background-image: url("static/css/images/spacey.jpg");
     text-align: center;
     background-size: cover;
 
@@ -109,10 +111,9 @@ a.navbar-brand{
 iframe{
     margin:100px 0 100px 0;
 }
-@media only screen and (max-device-width: 1800px) {
+@media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
-    background-size: 100% 100%;
   }
 }
 
@@ -130,8 +131,11 @@ p{
 .icons{
     text-decoration: none;
     color: white;
-    opacity:.35;
+    opacity:.55;
     padding: 0 10px;
     font-size: 3rem;
+}
+.box{
+    padding-bottom: 3rem;
 }
 
