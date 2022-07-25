@@ -29,7 +29,7 @@ body, html {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  background-size: contain;
+  background-size: 100% 100%;
   position: center;
 }
 #header{
