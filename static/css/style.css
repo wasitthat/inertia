@@ -1,21 +1,24 @@
 #index-body{
     background-image: url("images/main-page.jpg");
+    background-attachment: fixed;
     text-align: center;
   background-size:cover;
 }
 #music-body{
     background-image: url("images/spacey.jpg");
+    background-attachment: fixed;
     text-align: center;
     background-size:cover;
 }
 #links-body{
     background-image: url("images/links.jpg");
+    background-attachment: fixed;
     text-align: center;
   background-size: cover;
 }
 body, html {
   height: 100%;
-    background-attachment: fixed;
+
 }
 
 .parallax {
