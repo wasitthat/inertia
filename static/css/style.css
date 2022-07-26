@@ -24,6 +24,7 @@ body, html {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  position: absolute;
 }
 body::-webkit-scrollbar{
     display: none;
