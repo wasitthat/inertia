@@ -2,7 +2,7 @@
     background-image: url("images/2gb4.jpg");
     background-attachment: fixed;
     text-align: center;
-  background-size:cover;
+    background-size:cover;
 }
 .music-body{
     background-image: url("images/2gb5.jpg");
@@ -14,59 +14,97 @@
     background-image: url("images/2gb3.jpg");
     background-attachment: fixed;
     text-align: center;
-  background-size: cover;
+    background-size: cover;
 }
 body, html {
     background: url(images/bg.jpg) no-repeat center center fixed;
     background: top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
 }
 body::-webkit-scrollbar{
     display: none;
 }
-
+li{
+    list-style: none;
+}
 #parallax {
-  /* The image used */
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: center;
-}
-#header{
-width:max-content;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: center;
 }
 
 
+#header{}
+
+
+#layer{}
+
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 65%;
+    align-items: self-end;
+    list-style: none;
+}
+.first{
+    background-image: url("images/moon.png");
+}
+hr.hr{
+    height: 45px;
+    background-size: 140px;
+    background-repeat: repeat-x;
+    background-image: url('images/Asset 2.png');
+    width: 100%;
+    object-fit: scale-down;
+    opacity: 1;
+    background-color: transparent;
+    position: relative;
+    top: -38px;
+}
+hr.hr1 {
+    height: 10%;
+    background-image: url('images/border.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    opacity: 1;
+    mix-blend-mode: color;
+}
+hr.hr2 {
+    height: 10%;
+    background-image: url('images/border.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    opacity: 1;
+    mix-blend-mode: color;
+}
 .navbar{
     height: 185px;
-    background-image: url(images/stained.svg);
-    background-size: 42%;
-    background-position: left;
-    top:-2rem;
+    background-image: url('images/explode_text_effect.svg');
+    background-size: 38%;
+    background-position: left center;
     background-repeat: no-repeat;
+    padding: 0 0 0 0 ;
 }
-hr{
-position: relative;
-    top:-20px;
-    border: solid;
-    line-height: 2;
-    color: white;
-    opacity: .66;
+.navbar-toggler{
+    margin-left:auto;
 }
 audio{
     display: block;
     padding: 0 0 25px 0 ;
 }
 a.nav-link{
-    padding-top: 100px;
 }
 a.navbar-brand{
     font-family: 'Cinzel', serif;
@@ -78,20 +116,26 @@ a.navbar-brand{
     display:block;
 }
 .navbar-collapse{
-    padding-bottom: 50px;
 }
 .nav-item{
-  padding: 0 25px 0 25px;
+  padding: 0 7% 0 0;
 }
-
+.navbar-nav{
+    position: absolute;
+    right: 20%;
+}
 .nav-link{
-    font-size: 2.2rem;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
     font-weight: 300;
+    color:white;
 }
 
 .container-fluid{
-    background-color:black;
+    background-image: url('images/7.jpg');
+    background-size: 102%;
 }
+
 .wtf{
 
 }
@@ -123,14 +167,17 @@ a.navbar-brand{
 }
 
 iframe{
-    margin:100px 0 100px 0;
 }
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
 }
-
+@media(min-width: 576px){
+    .nav-link{
+        padding-top: 100px;
+    }
+}
 p{
     text-width: 500px;
     color: #fff;
@@ -150,6 +197,9 @@ p{
     font-size: 3rem;
 }
 .box{
-    padding-bottom: 3rem;
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    color: white;
+    text-align: -webkit-center;
 }
 
