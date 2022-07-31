@@ -181,8 +181,9 @@ iframe{
   }
 }
 @media(min-width: 576px){
-    .nav-link{
+    .navbar-nav{
         padding-top: 100px;
+        bottom: 25px;
     }
 }
 p{
