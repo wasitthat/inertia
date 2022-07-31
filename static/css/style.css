@@ -51,6 +51,7 @@ li{
     padding-left: 65%;
     align-items: self-end;
     list-style: none;
+    padding-top:50px;
 }
 .first{
     background-image: url("images/moon.png");
@@ -114,6 +115,12 @@ a.navbar-brand{
 }
 .player{
     display:block;
+}
+@media  (max-width: 575px){
+    .navbar-nav {
+    top: -51px;
+    line-height: .8;
+    }
 }
 .navbar-collapse{
 }
