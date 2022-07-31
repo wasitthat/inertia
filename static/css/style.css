@@ -203,3 +203,15 @@ p{
     text-align: -webkit-center;
 }
 
+.hand{
+        width: 500px;
+    height: 800;
+    position: relative;
+    right: -697px;
+    display: inline-block;
+    bottom: 437px;
+}
+
+.splat{
+    width: 400px;
+}
