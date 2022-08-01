@@ -80,6 +80,12 @@ hr.hr1 {
     opacity: 1;
     mix-blend-mode: overlay;
 }
+.logo{
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 106px;
+}
 hr.hr2 {
     height: 10%;
     background-image: url('images/border.png');
@@ -93,11 +99,8 @@ hr.hr2 {
 }
 .navbar{
     height: 185px;
-    background-image: url('images/explode_text_effect.svg');
-    background-size: 38%;
-    background-position: left center;
-    background-repeat: no-repeat;
-    padding: 0 0 0 0 ;
+
+    padding: 20px 0 0 0 ;
 }
 .navbar-toggler{
     margin-left:auto;
