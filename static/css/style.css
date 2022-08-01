@@ -60,12 +60,13 @@ hr.hr{
     height: 45px;
     background-size: 140px;
     background-repeat: repeat-x;
-    background-image: url('images/Asset 2.png');
+    background-image: url('images/blade2.png');
     width: 100%;
     object-fit: scale-down;
     opacity: 1;
     background-color: transparent;
     position: relative;
+
     top: -38px;
 }
 hr.hr1 {
@@ -77,7 +78,7 @@ hr.hr1 {
     background-repeat: no-repeat;
     background-color: transparent;
     opacity: 1;
-    mix-blend-mode: color;
+    mix-blend-mode: overlay;
 }
 hr.hr2 {
     height: 10%;
@@ -88,7 +89,7 @@ hr.hr2 {
     background-repeat: no-repeat;
     background-color: transparent;
     opacity: 1;
-    mix-blend-mode: color;
+    mix-blend-mode: overlay;
 }
 .navbar{
     height: 185px;
@@ -192,6 +193,10 @@ p{
     font-size:2.5rem;
 }
 
+.video{
+box-shadow: 17px 20px 20px 0px black;
+}
+
 .about{
     margin: auto;
     width:500px;
@@ -212,7 +217,7 @@ p{
 }
 
 .hand{
-        width: 500px;
+    width: 500px;
     height: 800;
     position: relative;
     right: -697px;
@@ -222,4 +227,13 @@ p{
 
 .splat{
     width: 400px;
+}
+
+.album{
+    display: block;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    box-shadow: 17px 20px 20px 0px black;
 }
