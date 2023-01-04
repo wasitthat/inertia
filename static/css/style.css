@@ -1,16 +1,16 @@
-.index-body{
+.index-body {
     background-image: url("images/2gb4.jpg");
     background-attachment: fixed;
     text-align: center;
     background-size:cover;
 }
-.music-body{
+.music-body {
     background-image: url("images/2gb5.jpg");
     background-attachment: fixed;
     text-align: center;
     background-size:cover;
 }
-.links-body{
+.links-body {
     background-image: url("images/2gb3.jpg");
     background-attachment: fixed;
     text-align: center;
@@ -25,10 +25,10 @@ body, html {
     background-size: cover;
     height: 100vh;
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
-li{
+li {
     list-style: none;
 }
 #parallax {
@@ -45,7 +45,7 @@ li{
 #layer{}
 
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     flex-direction: column;
     padding-left: 65%;
@@ -53,10 +53,10 @@ li{
     list-style: none;
     padding-top:50px;
 }
-.first{
+.first {
     background-image: url("images/moon.png");
 }
-hr.hr{
+hr.hr {
     height: 45px;
     background-size: 140px;
     background-repeat: repeat-x;
@@ -80,19 +80,24 @@ hr.hr1 {
     opacity: 1;
     mix-blend-mode: overlay;
 }
-img.three{
+img.three {
     width:50%;
     margin-left: auto;
     margin-right: auto;
 }
-.centered{
+.centered {
     align-items: center;
 }
-.logo{
-    width: 20%;
+.logo {
+    width: 40%;
+    min-width: 400px;
+    max-width: 680px;
     display: inline-block;
-    position: absolute;
-    left: 106px;
+    margin-top: 2em;
+}
+.current{
+    color: #ff2222;
+
 }
 hr.hr2 {
     height: 10%;
@@ -105,87 +110,87 @@ hr.hr2 {
     opacity: 1;
     mix-blend-mode: overlay;
 }
-.navbar{
-    height: 185px;
-
-    padding: 20px 0 0 0 ;
+.navbar {
 }
-.navbar-toggler{
+.navbar-toggler {
     margin-left:auto;
 }
-audio{
+audio {
     display: block;
     padding: 0 0 25px 0 ;
 }
-a.nav-link{
+a.nav-link {
 }
-a.navbar-brand{
+a.navbar-brand {
     font-family: 'Cinzel', serif;
     font-size: 5rem;
     padding-left: 100px;
-    padding-top: 100px;
+
+
 }
-.player{
+.player {
     display:block;
 }
-@media  (max-width: 575px){
-    .navbar-nav {
-    top: -51px;
-    line-height: .8;
+@media (max-width: 575px){
+
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-.navbar-collapse{
+.navbar-collapse {
 }
-.nav-item{
+.nav-item {
   padding: 0 7% 0 0;
 }
-.navbar-nav{
+.navbar-nav {
     position: absolute;
     right: 20%;
 }
-.nav-link{
+.nav-link {
     font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     font-weight: 300;
     color:white;
 }
 
-.container-fluid{
-    background-image: url('images/7.jpg');
-    background-size: 102%;
+.container-fluid {
+    background-image: url('images/7.png');
+
+    background-size: cover;
 }
 
-.wtf{
+.wtf {
 
 }
-.names{
+.names {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
     line-height:3;
     color: #fff;
   }
 
-.wwy{
+.wwy {
 
 }
-.dir{
+.dir {
 
 }
-.spanky{
+.spanky {
 
 }
-.goodbye{
+.goodbye {
 
 }
-.music-background{
+.music-background {
     text-align: center;
 
 }
-.music-players{
+.music-players {
     text-align: -webkit-center;
 }
 
-iframe{
+iframe {
 }
 @media only screen and (max-device-width: 1366px) {
   .parallax {
@@ -198,36 +203,36 @@ iframe{
         bottom: 25px;
     }
 }
-p{
+p {
     text-width: 500px;
     color: #fff;
     font-size:2.5rem;
 }
 
-.video{
-box-shadow: 17px 20px 20px 0px black;
+.video {
+    box-shadow: 17px 20px 20px 0px black;
 }
 
-.about{
+.about {
     margin: auto;
     width:500px;
 }
 
-.icons{
+.icons {
     text-decoration: none;
     color: white;
     opacity:.55;
     padding: 0 10px;
     font-size: 3rem;
 }
-.box{
+.box {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
     color: white;
     text-align: -webkit-center;
 }
 
-.hand{
+.hand {
     width: 500px;
     height: 800;
     position: relative;
@@ -236,13 +241,14 @@ box-shadow: 17px 20px 20px 0px black;
     bottom: 437px;
 }
 
-.splat{
+.splat {
     width: 400px;
 }
 
-.album{
+.album {
     display: block;
-    width: 480px;
+    width: 50%;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
