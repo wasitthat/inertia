@@ -2,21 +2,25 @@
     background-image: url("images/2gb4.jpg");
     background-attachment: fixed;
     text-align: center;
-    background-size:cover;
+    background-size: cover;
 }
+
 .music-body {
     background-image: url("images/2gb5.jpg");
     background-attachment: fixed;
     text-align: center;
-    background-size:cover;
+    background-size: cover;
 }
+
 .links-body {
     background-image: url("images/2gb3.jpg");
     background-attachment: fixed;
     text-align: center;
     background-size: cover;
 }
-body, html {
+
+body,
+html {
     background: url(images/bg.jpg) no-repeat center center fixed;
     background: top;
     -webkit-background-size: cover;
@@ -25,25 +29,27 @@ body, html {
     background-size: cover;
     height: 100vh;
 }
+
 body::-webkit-scrollbar {
     display: none;
 }
+
 li {
     list-style: none;
 }
+
 #parallax {
     height: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: center;
+    justify-content: space-evenly;
 }
 
+.navbar {
+    padding-bottom: 3.5rem;
 
-#header{}
-
-
-#layer{}
-
+}
 
 .navbar-nav {
     display: flex;
@@ -51,11 +57,12 @@ li {
     padding-left: 65%;
     align-items: self-end;
     list-style: none;
-    padding-top:50px;
 }
+
 .first {
     background-image: url("images/moon.png");
 }
+
 hr.hr {
     height: 45px;
     background-size: 140px;
@@ -69,6 +76,7 @@ hr.hr {
 
     top: -38px;
 }
+
 hr.hr1 {
     height: 10%;
     background-image: url('images/border.png');
@@ -80,14 +88,17 @@ hr.hr1 {
     opacity: 1;
     mix-blend-mode: overlay;
 }
+
 img.three {
-    width:50%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .centered {
     align-items: center;
 }
+
 .logo {
     width: 40%;
     min-width: 400px;
@@ -95,10 +106,12 @@ img.three {
     display: inline-block;
     margin-top: 2em;
 }
-.current{
+
+.current {
     color: #ff2222;
 
 }
+
 hr.hr2 {
     height: 10%;
     background-image: url('images/border.png');
@@ -110,17 +123,16 @@ hr.hr2 {
     opacity: 1;
     mix-blend-mode: overlay;
 }
-.navbar {
-}
+
 .navbar-toggler {
-    margin-left:auto;
+    margin-left: auto;
 }
+
 audio {
     display: block;
-    padding: 0 0 25px 0 ;
+    padding: 0 0 25px 0;
 }
-a.nav-link {
-}
+
 a.navbar-brand {
     font-family: 'Cinzel', serif;
     font-size: 5rem;
@@ -128,103 +140,103 @@ a.navbar-brand {
 
 
 }
-.player {
-    display:block;
-}
-@media (max-width: 575px){
 
-    .logo{
+.player {
+    display: block;
+}
+
+@media (max-width: 575px) {
+
+    .logo {
         margin-left: auto;
         margin-right: auto;
     }
 }
-.navbar-collapse {
-}
+
 .nav-item {
-  padding: 0 7% 0 0;
+    padding: 0 7% 0 0;
 }
+
 .navbar-nav {
-    position: absolute;
     right: 20%;
 }
+
 .nav-link {
     font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     font-weight: 300;
-    color:white;
+    color: white;
 }
 
 .container-fluid {
     background-image: url('images/7.png');
-
-    background-size: cover;
 }
 
-.wtf {
-
-}
 .names {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
-    line-height:3;
+    line-height: 3;
     color: #fff;
-  }
-
-.wwy {
-
 }
-.dir {
 
-}
-.spanky {
-
-}
-.goodbye {
-
-}
 .music-background {
     text-align: center;
 
 }
+
 .music-players {
     text-align: -webkit-center;
 }
 
-iframe {
-}
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-@media(min-width: 576px){
-    .navbar-nav{
-        padding-top: 100px;
-        bottom: 25px;
+    .parallax {
+        background-attachment: scroll;
+
     }
 }
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: space-evenly !important;
+        padding-left: 50px;
+        
+    }
+}
+
+@media(min-width: 576px) {
+    .navbar-nav {
+        display: contents;
+        position: relative;
+        padding-top: 100px;
+
+    }
+}
+
 p {
-    text-width: 500px;
     color: #fff;
-    font-size:2.5rem;
+    font-size: 2.5rem;
 }
 
 .video {
     box-shadow: 17px 20px 20px 0px black;
+    max-width: 98%;
 }
 
 .about {
     margin: auto;
-    width:500px;
+    width: 500px;
 }
 
 .icons {
     text-decoration: none;
     color: white;
-    opacity:.55;
+    opacity: .55;
     padding: 0 10px;
     font-size: 3rem;
 }
+
 .box {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
