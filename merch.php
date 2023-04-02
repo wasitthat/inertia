@@ -4,14 +4,4 @@
         <a href=""><img src="static/css/images/Untitled-2.png" class='three' alt=""></a>
         <a href=""><img src="static/css/images/Untitled-1.png" class='three' alt=""></a>
     </div>
-    <footer id="footer" class="">
-        <div class="icons">
-            <a href="https://www.facebook.com/Inertiametal" class = "icons fa-brands fa-facebook" target="_blank"></a>
-            <a href="https://www.instagram.com/Inertiametal/" class = "icons fa-brands fa-instagram" target="_blank"></a>
-            <a href="https://www.youtube.com/user/wasitthat" class = "icons fa-brands fa-youtube" target="_blank"></a>
-            <a href="mailto:wasitthat@zohomail.com" class = "icons fa-solid fa-envelope"></a>
-        </div>
-        <p class = "navbar-brand">© Copyright 2022 Inertia</p>
-    </footer>
-</body>
-</html>
+<?php include "footer.html" ?>
