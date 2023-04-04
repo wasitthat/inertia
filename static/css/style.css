@@ -5,29 +5,64 @@
     background-size: cover;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+}
 .music-body {
     background-image: url("images/2gb5.jpg");
     background-attachment: fixed;
     text-align: center;
     background-size: cover;
 }
+.vid{
+    margin: 4rem;
+}
+ .nav-link.active {
+        animation: pulse 8s infinite;
+    }
+
+.video {
+    box-shadow: 17px 20px 20px 0px black;
+    max-width: 98%;
+    max-height:45%;
+}
 
 .links-body {
     background-image: url("images/2gb3.jpg");
     background-attachment: fixed;
     text-align: center;
+
     background-size: cover;
 }
 
+.ctrlbtn{
+    border-radius:10px;
+}
+
+p:first-of-type{
+    margin-top: 0;
+}
+.art{
+    width:150px;
+    float:left;
+}
+#vince{
+    width: 100px;
+    
+}
 body,
 html {
     background: url(images/bg.jpg) no-repeat center center fixed;
     background: top;
+    font-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -47,15 +82,16 @@ li {
 }
 
 .navbar {
-    padding-bottom: 3.5rem;
-
+    padding-bottom:0!important;
+    padding-top:0!important;
+    bottom: 4.5rem;
 }
 
 .navbar-nav {
     display: flex;
     flex-direction: column;
     padding-left: 65%;
-    align-items: self-end;
+    align-items: flex-end;
     list-style: none;
 }
 
@@ -63,33 +99,27 @@ li {
     background-image: url("images/moon.png");
 }
 
-hr.hr {
+hr.hr{
     height: 45px;
     background-size: 140px;
     background-repeat: repeat-x;
     background-image: url('images/blade2.png');
     width: 100%;
     object-fit: scale-down;
-    opacity: 1;
+    opacity: .75;
     background-color: transparent;
     position: relative;
 
     top: -38px;
 }
 
-hr.hr1 {
-    height: 10%;
-    background-image: url('images/border.png');
-    background-position-x: center;
-    background-position-y: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    opacity: 1;
+.hr1 {
+    width:100%;
     mix-blend-mode: overlay;
+    opacity:.75;
 }
 
-img.three {
+.three {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -100,9 +130,8 @@ img.three {
 }
 
 .logo {
-    width: 40%;
-    min-width: 400px;
-    max-width: 680px;
+    width: 98%;
+    max-width:800px;
     display: inline-block;
     margin-top: 2em;
 }
@@ -120,17 +149,27 @@ hr.hr2 {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;
-    opacity: 1;
+    opacity:.75;
     mix-blend-mode: overlay;
 }
-
+ul.navbar-nav{
+    position: relative;
+    top: 3rem;
+    left: -2rem;
+}
 .navbar-toggler {
     margin-left: auto;
+    position: relative;
+    top: 1rem;
 }
-
+#content{
+    margin-bottom: 75px;
+}
 audio {
     display: block;
     padding: 0 0 25px 0;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 a.navbar-brand {
@@ -143,6 +182,7 @@ a.navbar-brand {
 
 .player {
     display: block;
+    background-color: lemonchiffon;
 }
 
 @media (max-width: 575px) {
@@ -154,7 +194,7 @@ a.navbar-brand {
 }
 
 .nav-item {
-    padding: 0 7% 0 0;
+    padding: 7% 0;
 }
 
 .navbar-nav {
@@ -163,7 +203,7 @@ a.navbar-brand {
 
 .nav-link {
     font-family: 'Cinzel', serif;
-    font-size: 1.5rem;
+    font-size: 200%;
     font-weight: 300;
     color: white;
 }
@@ -186,23 +226,36 @@ a.navbar-brand {
 
 .music-players {
     text-align: -webkit-center;
-}
-
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-
-    }
+    background-color: lemonchiffon;
 }
 
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
+        height:75px;
         display: flex !important;
         flex-basis: auto;
         justify-content: space-evenly !important;
-        padding-left: 50px;
+        /*padding-left: 50px;*/
         
     }
+}
+
+@keyframes pulse {
+    0% {color: #c21e13; text-shadow:5px 5px 4px black;}
+    25% {color:#8e8e8e; }
+    50% {color: #460100; text-shadow: 0px 0px 4px yellow;}
+    100%{color: #c21e13; text-shadow:5px 5px 4px black;}
+    
+}
+    .video {
+        box-shadow: 17px 20px 20px 0px black;
+        width: 800px;
+        height: 400px;
+    }
+
+nav{
+    margin-top: 0;
+    padding-top: 0;
 }
 
 @media(min-width: 576px) {
@@ -213,20 +266,19 @@ a.navbar-brand {
 
     }
 }
-
 p {
     color: #fff;
-    font-size: 2.5rem;
+    
+        font-size: 150%;
 }
 
-.video {
-    box-shadow: 17px 20px 20px 0px black;
-    max-width: 98%;
-}
 
 .about {
     margin: auto;
-    width: 500px;
+    width: 80%;
+}
+p{
+    margin:1em;
 }
 
 .icons {
@@ -236,7 +288,11 @@ p {
     padding: 0 10px;
     font-size: 3rem;
 }
-
+.box, button,.copyright, p {
+    mix-blend-mode: color-dodge;
+    color: white;
+    background-color:black;
+}
 .box {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
