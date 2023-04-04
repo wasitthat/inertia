@@ -36,6 +36,7 @@
     background-attachment: fixed;
     text-align: center;
 
+
     background-size: cover;
 }
 
@@ -58,6 +59,7 @@ body,
 html {
     background: url(images/bg.jpg) no-repeat center center fixed;
     background: top;
+    font-size: 100%;
     font-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -82,6 +84,9 @@ li {
 }
 
 .navbar {
+    padding-bottom:0!important;
+    padding-top:0!important;
+    bottom: 4.5rem;
     padding-bottom:0!important;
     padding-top:0!important;
     bottom: 4.5rem;
